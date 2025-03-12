@@ -1,0 +1,15 @@
+services:
+  tor:
+    container_name: tor
+    build:
+      context: ./tor
+    tty: true
+    restart: always
+
+  web:
+    container_name: web
+    build:
+      context: ./server
+    restart: always
+    volumes:
+      - ./server/web/:/var/www/html
