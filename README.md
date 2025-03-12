@@ -1,8 +1,8 @@
-# Tor server with docker 
+# tor webserver with docker
 
 ## Setup
 
-1. generate tor domain at [here][mkp224o] or run this command below.
+1. generate tor domain at [cathugger/mkp224o][mkp224o] or run this command below.
 
 ```bash
 ./gen_domain.sh <domain>
